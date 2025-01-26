@@ -1,0 +1,65 @@
+body{
+    background-color: white;
+}
+main{
+    padding: 0 55px;
+}
+@font-face {
+    font-family: 'Hattori Hanzo';
+    src: url(./fonts/Hattori_Hanzo.otf);
+}
+.header-block{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.labor-photo-sizing{
+    background-image: url("./photos/HeaderPhoto.png");
+    height: 161px;
+    width: 100vw;
+}
+.simbols-magnotogorsk{
+    background-image: url("./photos/SymbolMagnitogorsk.png");
+    width: 35vw;
+    height: 25vw;
+    background-repeat: no-repeat;
+}
+.high-menu-general{
+    display: flex;
+}
+.block-high-menu{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.block-high-menu-text{
+    font-family: 'Hattori Hanzo';
+    font-size: 40px;
+    margin: 0;
+}
+.plus{
+    height: 28px;
+    width: 28px;
+    position: relative;
+}
+.plusOne{
+    width: 1px;
+    height: 28px;
+    transform: rotate(90deg);
+    background-color: grey;
+    position: absolute;
+
+    left: 50%;
+}
+.plusTwo{
+    width: 1px;
+    height: 28px;
+    transform: rotate(0deg);
+    background-color: grey;
+    position: absolute;
+
+    left: 50%;
+}
